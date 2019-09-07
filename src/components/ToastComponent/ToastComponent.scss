@@ -1,0 +1,7 @@
+@import "../../defaults.scss";
+
+.toast{
+    position: fixed;
+    top: 20%;
+    pointer-events: none;
+}

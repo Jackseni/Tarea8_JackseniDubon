@@ -1,0 +1,22 @@
+@import "../../defaults.scss";
+
+.canvas{
+    width: 100%;
+}
+
+.container{
+    width: 65vw;
+    @media screen and (max-width: $large-device) {
+        width: 100vw;
+    }
+}
+
+.palette{
+    display:flex;
+    text-align: center;
+
+    @media screen and (max-width: $large-device) {
+        display: block;
+    }
+    
+}
